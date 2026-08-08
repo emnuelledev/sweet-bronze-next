@@ -1,0 +1,10 @@
+Coloca aquí tus fotos (jpg, png o webp).
+
+Después, abre  lib/images.ts  y escribe la ruta de cada foto
+empezando por "/img/..."  (sin la palabra "public").
+
+Ejemplo:
+  1) Guardas la foto:   public/img/estudio.jpg
+  2) En lib/images.ts:  sobre: "/img/estudio.jpg"
+
+Consejo: nombres sin espacios ni acentos (estudio.jpg, no "mi foto.jpg").
