@@ -222,22 +222,6 @@ public/
 
 ---
 
-## 🛠️ 12. Problemas frecuentes
-
-- **Cambié un archivo y no se ve / da error raro / un artículo da 404:**
-  para el servidor (`Ctrl + C`), borra la carpeta de caché `.next` y arranca de nuevo:
-  - Windows: `rmdir /s /q .next` y luego `npm run dev`
-  - Mac/Linux/Git Bash: `rm -rf .next && npm run dev`
-  Refresca con `Ctrl + Shift + R`.
-
-- **Una foto no aparece:** revisa que el nombre del archivo coincida **exactamente**
-  (mayúsculas incluidas) con lo escrito en `lib/images.ts`, y que empiece por `/img/`.
-
-- **El feed de Instagram / reseñas no carga:** solo aparece en un navegador real
-  (`npm run dev` o ya publicado), no siempre en vistas previas.
-
----
-
 <p align="center">
   <br/>
   <img src="docs/aura-digital-mark.png" alt="Aura Digital" width="180"/>
