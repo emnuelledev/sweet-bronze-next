@@ -240,7 +240,7 @@ public/
 
 <p align="center">
   <br/>
-  <img src="public/logo/aura-digital-mark.png" alt="Aura Digital" width="180"/>
+  <img src="docs/aura-digital-mark.png" alt="Aura Digital" width="180"/>
 </p>
 
 <p align="center">
