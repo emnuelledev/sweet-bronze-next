@@ -24,8 +24,8 @@ export default function Hero() {
             </svg>
             Reservar por WhatsApp
           </a>
-          <a href="/#tratamientos" className="btn btn-ghost">
-            Ver tratamientos
+          <a href="/#servicios" className="btn btn-ghost">
+            Ver servicios
           </a>
         </div>
         <div className="reviews-badge reveal in d4">

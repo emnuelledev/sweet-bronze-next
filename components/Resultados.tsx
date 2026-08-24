@@ -18,7 +18,7 @@ export default function Resultados() {
           <span className="eyebrow center">Resultados</span>
           <h2 className="section-title">La luz habla por sí sola.</h2>
           <p className="lead" style={{ margin: "16px auto 0" }}>
-            Una galería editorial de nuestro trabajo. Próximamente, resultados reales de nuestras clientas.
+            Una galería editorial de nuestro trabajo.
           </p>
         </div>
         <div className="gallery reveal">

@@ -4,12 +4,9 @@ import Link from "next/link";
 import { site, wa } from "@/lib/site";
 
 const links = [
-  { href: "/#sobre", label: "Sobre" },
-  { href: "/#ventajas", label: "Ventajas" },
-  { href: "/#tratamientos", label: "Tratamientos" },
-  { href: "/#metodo", label: "El método" },
-  { href: "/sweet-tips", label: "Sweet Tips" },
-  { href: "/#resenas", label: "Reseñas" },
+  { href: "/#servicios", label: "Servicios" },
+  { href: "/#como-funciona", label: "Cómo funciona" },
+  { href: "/#biquinis", label: "Biquinis" },
   { href: "/#contacto", label: "Contacto" },
 ];
 

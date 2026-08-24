@@ -18,28 +18,19 @@ export default function Footer() {
           <div>
             <h4>Explora</h4>
             <ul>
-              <li><Link href="/#sobre">Sobre Sweet Bronze</Link></li>
-              <li><Link href="/#ventajas">Ventajas</Link></li>
-              <li><Link href="/#experiencia">La experiencia</Link></li>
-              <li><Link href="/#metodo">El método brasileño</Link></li>
-            </ul>
-          </div>
-          <div>
-            <h4>Servicios</h4>
-            <ul>
-              <li><Link href="/#tratamientos">Tratamientos</Link></li>
-              <li><Link href="/#productos">Productos</Link></li>
-              <li><Link href="/sweet-tips">Sweet Tips</Link></li>
+              <li><Link href="/#servicios">Servicios</Link></li>
+              <li><Link href="/#como-funciona">Cómo funciona</Link></li>
+              <li><Link href="/#biquinis">Biquinis</Link></li>
               <li><Link href="/#resultados">Resultados</Link></li>
             </ul>
           </div>
           <div>
             <h4>Reservas</h4>
             <ul>
-              <li><Link href="/#faq">Preguntas frecuentes</Link></li>
               <li><Link href="/#contacto">Contacto</Link></li>
               <li><a href={wa()} target="_blank" rel="noopener noreferrer">WhatsApp</a></li>
               <li><a href={site.instagram} target="_blank" rel="noopener noreferrer">Instagram</a></li>
+              <li><Link href="/sweet-tips">Sweet Tips</Link></li>
             </ul>
           </div>
         </div>

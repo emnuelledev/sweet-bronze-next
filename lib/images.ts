@@ -7,12 +7,11 @@
 
 export const images = {
   // Aún sin foto → se muestra el placeholder
-  sobre: "",
   metodo: "",
-  productos: ["", "", "", "", "", ""],
 
-  // Foto del tratamiento estrella
+  // Fotos de los servicios
   tratamientoBikini: "/img/bikini-principal.jpg",
+  tratamientoCinta: "/img/bikini-cinta.jpg",
 
   // Galería de "Resultados"
   gallery: [

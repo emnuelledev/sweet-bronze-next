@@ -20,7 +20,7 @@ export const site = {
   address: "Valencia, España",
   addressNote: "Dirección exacta al confirmar tu reserva",
   languages: "Atención en español y português",
-  priceFrom: "desde 70€",
+  priceFrom: "desde 60€",
 
   reviews: { rating: "5.0", count: "19" },
 
@@ -79,6 +79,17 @@ export const site = {
   },
 };
 
-export function wa(message = "Hola Sweet Bronze, me gustaría reservar una cita") {
+// 👉 Mensajes de WhatsApp según el origen del clic — cada CTA usa el texto que
+//    corresponde a lo que la clienta está pidiendo, en vez de un mensaje genérico.
+export const waMessages = {
+  general: "Hola! Conocí Sweet Bronze a través de la web y me gustaría más información.",
+  bikiniPropio: "Hola! Me gustaría reservar el Bronceado con bikini propio (60€).",
+  bikiniCinta: "Hola! Me gustaría reservar el Bronceado con cinta (70€).",
+  tiempoAdicional: "Hola! Quería saber sobre la posibilidad de añadir más tiempo a mi sesión.",
+  product: (name: string) =>
+    `Hola! Vi el bikini ${name} en la web de Sweet Bronze y me gustaría saber más.`,
+};
+
+export function wa(message: string = waMessages.general) {
   return `https://wa.me/${site.whatsappNumber}?text=${encodeURIComponent(message)}`;
 }
